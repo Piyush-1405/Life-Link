@@ -1,0 +1,13 @@
+{
+  "expo": {
+    "name": "LifeLink",
+    "slug": "lifelink",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "lifelink",
+    "userInterfaceStyle": "dark",
+    "plugins": ["expo-router", "expo-location", "expo-secure-store"],
+    "ios": { "supportsTablet": true, "bundleIdentifier": "com.lifelink.app" },
+    "android": { "adaptiveIcon": { "backgroundColor": "#0f0f23" }, "package": "com.lifelink.app" }
+  }
+}
